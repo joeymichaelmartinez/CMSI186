@@ -3,7 +3,7 @@ class ClockSolver {
 		double slice = 0;
 	    
 		
-		// comment
+		// comment again
 		
 		try {
 		    slice = Double.parseDouble(args[0]);
