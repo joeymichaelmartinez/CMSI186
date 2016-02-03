@@ -5,6 +5,7 @@ class ClockSolver {
 		
 		// comment again
 		
+		
 		try {
 		    slice = Double.parseDouble(args[0]);
 		
