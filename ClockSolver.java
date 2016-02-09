@@ -1,21 +1,21 @@
-class ClockSolver {
+class ClockSolver{
     public static void main (String[] args) {
-		double slice = 0;
+	
+	double slice = 60;
+    Clock c = new Clock();
+	
+	try {
+	    slice = Double.parseDouble(args [0]);
 	    
 		
-		// comment again
-		
-		
-		try {
-		    slice = Double.parseDouble(args[0]);
-		
-		} catch (ArrayIndexOutOfBoundsException e) {
-		   slice = 60.0;
-	    
-		} catch (Exception e ) {
-			
-			System.out.println(e);
-		}
-		System.out.println(slice);
+	    //System.out.println(c.getHiyrs());
+	} catch ( Exception e ) {
+	    System.err.println(e);
+	}
+	
+	System.out.println("slice: " + slice);
+	System.out.println("Current time: " + c);
+	
     }
+
 }
