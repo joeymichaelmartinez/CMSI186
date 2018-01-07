@@ -1,0 +1,43 @@
+public class Triangle {
+    private double vertexX1, vertexY1, vertexX2, vertexY2, vertexX3, vertexY3;
+    private double area;
+    
+    public Rectangle(double vertexX1, double vertexY1, double vertexX2, double vertexY2, double vertexX3, double vertexY3) {
+        this.vertexX1 = vertexX1;
+        this.vertexY1 = vertexY1;
+        this.vertexX2 = vertexX2;
+        this.vertexY2 = vertexY2;
+        this.vertexX3 = vertexX3;
+        this.vertexY3 = vertexY3;
+        
+    }
+    
+    public double getvertexX1() {
+        return this.vertexX1;
+    }
+    
+    public double getvertexY1() {
+        return this.vertexY1;
+    }
+    
+    public double getvertexX2() {
+        return this.vertexX2;
+    }
+    
+    public double getvertexY2() {
+        return this.vertexY2;
+    }
+    
+    public double getvertexX3() {
+        return this.vertexX3;
+    }
+    
+    public double getvertexY3() {
+        return this.vertexY3;
+    }
+    
+    /*public double getArea() {
+        this.area = (this.x2-this.x1)*(this.y2-this.y1);
+        return this.area;
+    }*/
+}
